@@ -1,0 +1,132 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 50px 0px;
+	font-family: Inter, sans-serif;
+	background-color: #23252c;
+}
+
+.app {
+	margin: auto;
+	border-radius: 15px 15px 15px 15px;
+	max-width: 400px;
+	background-color: #1a1b21;
+}
+
+.info--container {
+	text-align: center;
+}
+
+.profile--photo {
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.profile--title {
+	color: #ffffff;
+	font-weight: 550;
+}
+
+.profile--occupation {
+	color: #f3bf99;
+	font-weight: 300;
+	font-size: 1em;
+	margin-top: -15pt;
+}
+
+.profile--website {
+	color: #f5f5f5;
+	font-weight: 200;
+	font-size: 0.9em;
+	margin-top: -5pt;
+}
+
+.profile--contact--buttons {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 0px 35px;
+}
+
+.email--button,
+.linkedin--button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3px 30px;
+	border-radius: 10px;
+	font-size: 1em;
+}
+
+.email--button {
+	background-color: #ffffff;
+}
+
+.email--button > img {
+	padding-right: 5px;
+	height: 40%;
+}
+
+.linkedin--button {
+	background-color: #5093e2;
+	color: #ffffff;
+}
+
+.linkedin--button > img {
+	padding-right: 5px;
+	height: 60%;
+}
+
+.about--container {
+	color: #ffffff;
+	padding: 0rem 3rem;
+	padding-bottom: 1rem;
+}
+
+.about--container > h2 {
+	font-weight: 600;
+	font-size: 1.3em;
+}
+
+.about--container > p {
+	font-weight: 100;
+	font-size: 0.7em;
+	margin-top: -10pt;
+	letter-spacing: 0.01em;
+}
+
+.about--container > ul {
+	margin-top: -10pt;
+}
+
+.about--container > ul > li {
+	font-weight: 100;
+	font-size: 0.7em;
+	padding-bottom: 5px;
+	letter-spacing: 0.01em;
+}
+
+.about--container > ul > li::marker {
+	color: #f3bf99;
+	font-size: 1.3em;
+}
+
+.about--container > ul > li > span {
+	font-weight: 600;
+	color: #f3bf99;
+}
+
+.contact--icons {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #161619;
+	padding: 20px 60px 20px 60px;
+	border-radius: 0px 0px 15px 15px;
+}
+
+.contact--icons > img {
+	max-width: 10%;
+}
